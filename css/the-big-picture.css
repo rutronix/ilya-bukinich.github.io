@@ -18,6 +18,14 @@ body {
     background-size: cover;
   }
 
+body{
+   h1 {
+    background-color: grey; /* Цвет фона под заголовком */
+   }
+   p {
+    background-color: grey; /* Цвет фона под текстом параграфа */
+   }
+
 /*body {
   background-color: black;
 }*/
