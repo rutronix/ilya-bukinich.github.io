@@ -13,7 +13,7 @@
 /* Responsive Full Background Image Using CSS
  * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
 */
-html {
+body {
   /* Location of the image */
   background-image: url(background.jpg);
   
@@ -40,7 +40,7 @@ html {
 
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
-html {
+body {
     /* The file size of this background image is 93% smaller
      * to improve page load speed on mobile internet connections */
     background-image: url(background-photo-mobile-devices.jpg);
