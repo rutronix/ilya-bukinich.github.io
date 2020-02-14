@@ -1,4 +1,4 @@
-consoleText(['Hello, World!', 'Меня зовут Илья','Я изучаю Python','Поработаю за еду','Пишите'], 'text',['white']);
+consoleText(['Hello, World!', 'Меня зовут Илья','Я изучаю Python'], 'text',['white']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
