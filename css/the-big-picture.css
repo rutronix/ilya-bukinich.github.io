@@ -18,20 +18,19 @@ body {
     background-size: cover;
   }
 
-  .hidden {
+.hidden {
     opacity:0;
   }
-  
   }
-  .console-container {
+.console-container {
     font-size:2rem;
     text-align:left;
     display:inline;
   }
-  .console-underscore {
+.console-underscore {
   display:inline-block;
   position:relative;
-  top:-0.14em;
+  top:-0.15em;
   left:10px;
 }
 /*body {
