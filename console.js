@@ -1,4 +1,4 @@
-consoleText(['Hello, World!'], 'text',['white']);
+consoleText(['Hello, World!', 'Let\'s do it...'], 'text',['white']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
@@ -43,7 +43,6 @@ function consoleText(words, id, colors) {
 
   } else {
     con.className = 'console-underscore'
-
     visible = true;
   }
 }, 400)
